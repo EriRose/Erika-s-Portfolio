@@ -243,25 +243,39 @@ hr {
 }
 
 
-@media (max-width: 600px) {
-  .portfolio {
+@media screen and (max-width: 600px) {
+  .trio {
     padding: 15px;
   }
 
-  .portfolio {
+.project {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
   }
 
-  .portfolio img {
+  .project-info h3 {
+    order: 1;
+    margin: 0;
+  }
+
+img {
+    order: 2;
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
   }
-}
 
-/* Smartphone layout */
-@media (max-width: 400px)
+  .project-omfp p {
+    order: 3;
+    margin: 0;
+  }
+
+  .project-info a {
+    order: 4;
+  }
   .banner {
     padding: 5% 10%;
   }
+}
