@@ -117,10 +117,12 @@ h5 {
 }
 
 .trio {
-  max-width: 900px;
-  width: 80%;
+  max-width: 950px;
+  width: 90%;
   margin: 0 auto;
   overflow: hidden;
+  padding: 0 30px;
+  background-color: var(--background-color);
 }
 
 .portfolio > .trio > p {
@@ -128,7 +130,7 @@ h5 {
 }
 
 #port {
-  margin-top: 2.5em;
+  margin-top: 2em;
 }
 
 .project {
@@ -142,11 +144,15 @@ img {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  border: 2px dashed var(--primary-accent);
+  box-shadow: 2px 2px 2px var(--secondary-accent);
 }
 
-.img a:hover {
-transform: translateY(-3px) scale(1.02);
+img:hover {
+   transform: translateY(-3px) scale(1.02);
+   box-shadow: 4px 4px 4px var(--primary-dark-color);
 }
+
 
 .project-info {
     flex: 1;
@@ -169,6 +175,7 @@ transform: translateY(-3px) scale(1.02);
      
   transition: background-color 0.2s ease, transform 0.1s ease;
   transform: translateY(-3px) scale(1.02);
+  box-shadow: 4px 4px 4px var(--primary-dark-color);
 }
 
 hr {
@@ -254,7 +261,7 @@ hr {
 }
 
 /* Smartphone layout */
-@media screen and (max-width: 600px)
+@media (max-width: 400px)
   .banner {
-    padding: 25px 15px;
+    padding: 5% 10%;
   }
