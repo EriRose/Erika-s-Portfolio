@@ -42,8 +42,8 @@ Link/Prompt: https://coolors.co/c6878f-b79d94-d6d6d6-67697c-253d5b
 
 body {
   margin: 0;
- font-family: "Playfair Display";
- font-size: 16px;
+  font-family: "Playfair Display";
+  font-size: 16px;
   line-height: 1.6;
   color: var(--primary-dark-color);s
   background-color: var(--background-color);
@@ -64,18 +64,6 @@ em, i {
 	font-style: italic;
   }
 
-
-.about { /* Used help from Gemini*/
-  margin: 0;
-  background-color: var(--primary-accent);
-  color: var(--background-color);
-  padding: 20px 0;
-  text-align: center;
-  width: 100%;
-  border-bottom: dotted var(--background-color);
-}
-
-
 h1 {
   font-size: 4em;
   margin: 0 0 5px;
@@ -83,7 +71,7 @@ h1 {
 }
 
 h2 {
- font-size: 1.8em;
+  font-size: 1.8em;
   margin: 0 0 18px;
   font-weight: bold; 
 }
@@ -107,13 +95,25 @@ h5 {
 
 }
 
+/* Top Banner Section */
+.about { /* Used help from Gemini*/
+  margin: 0;
+  background-color: var(--primary-accent);
+  color: var(--background-color);
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: dotted var(--background-color);
+}
+
 .about p {
   margin: 10px 0;
 }
 
+/*  Projects Section */
 .portfolio { /* Used help from ChatGTP*/
   background-color: var(--background-color);
-  padding: 40px 0;
+  padding: 10px 0;
 }
 
 .trio {
@@ -121,16 +121,8 @@ h5 {
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
-  padding: 0 30px;
+  padding: 30px;
   background-color: var(--background-color);
-}
-
-.portfolio > .trio > p {
-  margin-bottom: 25px;
-}
-
-#port {
-  margin-top: 2em;
 }
 
 .project {
@@ -153,7 +145,6 @@ img:hover {
    box-shadow: 4px 4px 4px var(--primary-dark-color);
 }
 
-
 .project-info {
     flex: 1;
 }
@@ -168,7 +159,7 @@ img:hover {
   border-radius: 4px;
   font-size: 0.8em;
   font-weight: bold;
-  
+
 }
 
 .project-info a:hover {
@@ -185,6 +176,8 @@ hr {
   margin: 2rem auto; 
 }
 
+
+/*  Education Section */
 .edu {
   background-color: var(--primary-light-color);
   color: var(--primary-dark-color);
@@ -201,8 +194,6 @@ hr {
   margin: 0 auto;
 }
 
-
-
 .edu a {
   color: var(--primary-dark-color);
 }
@@ -212,6 +203,7 @@ hr {
 }
 
 
+/* Contact Section  */
 .contact {
   background-color: var(--dark-accent);
   color: var(--secondary-accent);
@@ -220,8 +212,6 @@ hr {
   border-top: dotted var(--secondary-accent);
   line-height: 30px;
 }
-
-
 
 .contact-links {
   display: flex;
@@ -243,27 +233,24 @@ hr {
 }
 
 
+/*  Media Query (Used help from ChatGTP for ordering top to bottom */
 @media screen and (max-width: 600px) {
  .trio {
     padding: 15px;
     text-align: center;
-	   margin-left: auto;
-    margin-right: auto;
   }
 
 .project {
     flex-direction: column;
     gap: 10px;
     align-items: center;
-	  margin-left: auto;
-    margin-right: auto;
   }
 
    .project-info {
     display: contents;
     text-align: center;
     align-items: center;
-	     margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
    }
 
@@ -278,7 +265,7 @@ img {
     max-width: 250px;
     height: auto;
     align-items: center;
-	  margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
   }
 
@@ -290,7 +277,5 @@ img {
   .project-info a {
     order: 0;
     align-items: center;
-	    margin-left: auto;
-    margin-right: auto;
   }
 }
