@@ -246,19 +246,24 @@ hr {
 @media screen and (max-width: 600px) {
  .trio {
     padding: 15px;
+    text-align: center;
   }
 
 .project {
     flex-direction: column;
     gap: 10px;
+    align-items: center;
   }
 
    .project-info {
     display: contents;
+    text-align: center;
+    align-items: center;
    }
 
   .project-info h3 {
     order: -3;
+    text-align: center;
   }
 
 img {
@@ -266,13 +271,16 @@ img {
     width: 100%;
     max-width: 250px;
     height: auto;
+    align-items: center;
   }
 
   .project-info p {
     order: -1;
+    text-align: center;
   }
 
   .project-info a {
     order: 0;
+    align-items: center;
   }
 }
