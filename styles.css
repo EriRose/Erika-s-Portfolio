@@ -125,7 +125,6 @@ header {
   box-shadow: 2px 2px 2px var(--primary-light-color);
 }
 .projects .btn:hover {
-  /* background: ; */
   transform: translateY(-2px);
   box-shadow: 4px 4px 4px var(--primary-dark);
   opacity: .85;
@@ -192,7 +191,7 @@ footer {
     flex-shrink: 0;
   }
 
-  .job-item {
+  .project-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
