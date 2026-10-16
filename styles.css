@@ -98,7 +98,7 @@ h3 {
   margin: 0;
 }
 .divider > section {
-  border-bottom: 2px dashed var(--secondary-accent);
+  border-bottom: 2px dotted var(--secondary-accent);
   padding: 25px 0;
 }
 .divider > section:last-of-type {
