@@ -219,58 +219,56 @@ h3, h4, h5, p {
     text-align: center;
   }
 img {
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 .body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-   padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 15px;
   }
 .projects .btn {
- display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .content-wrap {
- display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-   padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 15px;
 }
 
 .project-item {
- display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-   padding: 20px 15px;
-   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+  width: 100%;
+  padding: 20px 15px;
+  text-align: center;
 }
 
 .education {
- display: flex;
-    flex-direction: column;
-    width: 100%;
+  width: 100%;
 }
 .education p {
-   text-align: center;
+  text-align: center;
 }
 .contact-list {
- display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-   padding: 20px 15px;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 15px;
 }
 }
