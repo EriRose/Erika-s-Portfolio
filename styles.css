@@ -25,12 +25,12 @@ Link/Prompt: https://coolors.co/be747e-b79d94-f5f5f5-118ab2-233b58
 
 }
 
-.playfair-display-<uniquifier> {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+.cambo-regular {
+  font-family: "Cambo", serif;
+  font-weight: 400;
   font-style: normal;
 }
+
 
 /* Global styles
 ------------------------------------*/
@@ -46,7 +46,7 @@ body {
   color: var(--primary-dark);
   margin: 0;
   padding: 0;
-  font-family: "Playfair Display";
+  font-family: "Cambo", serif;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -200,8 +200,7 @@ footer {
   .project-item img {
     flex-shrink: 0;
   }
-
-  .content-wrap {
+  .job-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
