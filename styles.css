@@ -188,7 +188,7 @@ footer {
   }
   .content-wrap {
     width: 100%;
-    padding: 28px auto;
+    padding: auto 0;
   }
   .project-item {
     flex-direction: column;
