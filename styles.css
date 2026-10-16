@@ -1,28 +1,21 @@
-/*
-COLOR PALETTE
-Choose a color palette using a traditional generator, an AI color tool (like Huemint or Colormind), 
-or by prompting an AI assistant. Paste your method and hex codes here:
 
 Method Used: Traditional Generator
-Link/Prompt: https://coolors.co/be747e-b79d94-f5f5f5-118ab2-233b58
+Link/Prompt: https://coolors.co/b25c66-bea49d-ffffff-0f7ea3-233b58
 
-/* CSS HEX
---dusty-rose: #be747eff;
---rosy-taupe: #b79d94ff;
---white-smoke: #f5f5f5ff;
---ocean-blue: #118ab2ff;
---deep-space-blue: #253d5bff;
+/* CSS HEX */
+--dusty-mauve: #b25c66ff;
+--rosy-taupe: #bea49dff;
+--white: #ffffffff;
+--cerulean: #0f7ea3ff;
+--deep-space-blue: #233b58ff;
 */
 
 :root {
-  /* STEP 1: Declare your 5-color palette variables below */
---primary-accent: #be747eff;
---primary-light-color: #b79d94ff;
---background-color: #f0e8ef;
---secondary-accent: #118ab2ff;
+--primary-accent: #B25C66;
+--primary-light-color: #BEA49D;
+--background-color: #ffffff;
+--secondary-accent: #0F7EA3;
 --primary-dark: #253d5bff;
-  /* Add your custom color variables here (e.g. --accent-color, --header-bg, etc.) */
-
 }
 
 .cambo-regular {
