@@ -186,67 +186,41 @@ footer {
   footer {
     text-align: center;
   }
-  .content-wrap {
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding: auto 0;
+   padding: 0 15px;
   }
-  .projects {
+   .project-item {
     flex-direction: row;
-    gap: 10px;
-    align-items: center;
-  }
-.projects {
-     text-align: center;
-  }
-
-  .projects p {
-     text-align: center;
-  }
-  
-  .projects .btn  {
-    order: 0;
-    align-items: center;
-  }
-  .project-item {
-    flex-direction: row;
-    align-items: center;
-  }
-   .project-item h3 {
-    text-align: center;
+    align-items: flex-start;
   }
   .project-item img {
-      width: 100%;
-      max-width: 250px;
-      height: auto;
-      align-items: center;
-      margin-left: auto;
-      margin-right: auto;
-  }
-  .project-item p {
-    order: -1;
-    text-align: center;
-  }
-.education p {
-  text-align: center;
-}
-  .education p {
-    width: 100%;
-    text-align: center;
+    flex-shrink: 0;
   }
   .contact-list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
   }
 }
-  h1 {
-    font-size: 2.5rem;
-    line-height: 1.1;
-  }
 
+@media screen and (max-width:749px){
+  h1 {
+    font-size: 2em;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
   h2 {
-    font-size: 1.25rem;
-    line-height: 1.2;
+    font-size: 1.2em;
+    line-height: 1;
+  }
+  .contact-list a {
+    padding: 5px;
+  }
+  img {
+    width: 200px;
   }
 }
