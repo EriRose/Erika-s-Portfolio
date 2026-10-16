@@ -184,7 +184,8 @@ footer {
     text-align: center;
   }
 
-   main,
+  main,
+  body,
   section,
   header,
   footer {
