@@ -127,7 +127,7 @@ header {
 .projects .btn:hover {
   transform: translateY(-2px);
   box-shadow: 4px 4px 4px var(--primary-dark);
-  opacity: .85;
+  background-color: var(--primary-accent);
 }
 .project-item {
   /* Modern Flexbox card layout replacing legacy floats */
@@ -183,22 +183,13 @@ footer {
   header, footer {
     text-align: center;
   }
-  .content-wrap {
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-  }
   .project-item {
-    display: contents;
-    text-align: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    flex-direction: row;
+    align-items: flex-start;
   }
   .project-item img {
     flex-shrink: 0;
   }
-
   .contact-list {
     display: flex;
     justify-content: center;
