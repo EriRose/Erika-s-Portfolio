@@ -35,7 +35,6 @@ html {
 }
 
 body {
-  /* STEP 2: Use your variables throughout this CSS file */
   color: var(--primary-dark);
   margin: 0;
   padding: 0;
