@@ -265,6 +265,10 @@ img {
   text-align: center;
   width: 100%;
 }
+.education a {
+  text-align: center;
+  width: 100%;
+}
 .contact-list {
    display: flex;
   flex-direction: column;
