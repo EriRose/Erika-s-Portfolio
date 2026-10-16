@@ -237,7 +237,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   padding: 0 15px;
 }
 .content-wrap {
  display: flex;
@@ -255,6 +254,7 @@ img {
     align-items: center;
     width: 100%;
    padding: 20px 15px;
+   text-align: center;
 }
 
 .education {
@@ -263,7 +263,9 @@ img {
     justify-content: center;
     align-items: center;
     width: 100%;
-   padding: 20px 15px;
+}
+.education p {
+   text-align: center;
 }
 .contact-list {
  display: flex;
