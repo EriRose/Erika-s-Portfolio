@@ -185,8 +185,8 @@ footer {
   }
   .project-item {
     flex-direction: row;
-    align-items: flex-start;
-    display: center;
+    align-items: center;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
   }
