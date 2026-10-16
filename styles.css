@@ -195,13 +195,13 @@ footer {
   }
   .project-item {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
   }
   .project-item img {
     flex-shrink: 0;
   }
 
-  .job-item {
+  .content-wrap {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
