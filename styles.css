@@ -199,6 +199,7 @@ footer {
   .project-item img {
     flex-shrink: 0;
   }
+
   .job-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
