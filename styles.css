@@ -186,16 +186,14 @@ footer {
   .project-item {
     flex-direction: row;
     align-items: flex-start;
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .project-item img {
     flex-shrink: 0;
   }
 
-  .project-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
-  }
   .contact-list {
     display: flex;
     justify-content: center;
