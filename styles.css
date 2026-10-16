@@ -197,7 +197,10 @@ footer {
 }
 
 @media screen and (max-width:749px){
-h1 {
+ header, footer {
+    text-align: center;
+  }
+  h1 {
     font-size: 2em;
     line-height: 0.9;
     margin-bottom: 20px;
@@ -206,18 +209,19 @@ h1 {
 h2 {
     font-size: 1.2em;
     line-height: 1;
-  text-align: center;
+    text-align: center;
   }
-  .contact-list a {
+.contact-list a {
     padding: 5px;
     text-align: center;
   }
-  img {
+img {
     width: 200px;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
-  .body {
+.body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -225,4 +229,46 @@ h2 {
     width: 100%;
    padding: 0 15px;
   }
+.projects .btn {
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   padding: 0 15px;
+}
+.content-wrap {
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   padding: 0 15px;
+}
+
+.project-item {
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   padding: 0 15px;
+}
+
+.education {
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   padding: 0 15px;
+}
+.contact-list {
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   padding: 0 15px;
+}
 }
