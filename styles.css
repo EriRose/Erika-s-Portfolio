@@ -183,6 +183,15 @@ footer {
   header, footer {
     text-align: center;
   }
+
+   main,
+  section,
+  header,
+  footer {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .project-item {
     flex-direction: row;
     align-items: flex-start;
