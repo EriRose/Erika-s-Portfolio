@@ -185,20 +185,19 @@ footer {
   }
   .project-item {
     flex-direction: row;
-    align-items: center;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    ustify-content: center;
+    align-items: flex-start;
   }
   .project-item img {
     flex-shrink: 0;
   }
-
+  .item-details {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
   .contact-list {
     display: flex;
     justify-content: center;
-    text-align: center;
   }
 }
 
@@ -207,12 +206,10 @@ footer {
     font-size: 2em;
     line-height: 0.9;
     margin-bottom: 20px;
-    text-align: center;
   }
   h2 {
     font-size: 1.2em;
     line-height: 1;
-    text-align: center;
   }
   .contact-list a {
     padding: 5px;
@@ -220,4 +217,5 @@ footer {
   img {
     width: 200px;
   }
+}
 }
