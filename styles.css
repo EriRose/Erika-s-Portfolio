@@ -180,21 +180,10 @@ footer {
 /* Responsive
 ------------------------------------*/
 @media screen and (min-width:750px){
-
-
-  header,
-  footer {
+  header, footer {
     text-align: center;
   }
-  .body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-   padding: 0 15px;
-  }
-   .project-item {
+  .project-item {
     flex-direction: row;
     align-items: flex-start;
   }
@@ -208,19 +197,32 @@ footer {
 }
 
 @media screen and (max-width:749px){
-  h1 {
+h1 {
     font-size: 2em;
     line-height: 0.9;
     margin-bottom: 20px;
+    text-align: center;
   }
-  h2 {
+h2 {
     font-size: 1.2em;
     line-height: 1;
+  text-align: center;
   }
   .contact-list a {
     padding: 5px;
+    text-align: center;
   }
   img {
     width: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   padding: 0 15px;
   }
 }
