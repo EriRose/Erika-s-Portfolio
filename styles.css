@@ -230,7 +230,7 @@ img {
     justify-content: center;
     align-items: center;
     width: 100%;
-   padding: 0 15px;
+   padding: 20px 15px;
   }
 .projects .btn {
  display: flex;
@@ -254,7 +254,7 @@ img {
     justify-content: center;
     align-items: center;
     width: 100%;
-   padding: 0 15px;
+   padding: 20px 15px;
 }
 
 .education {
@@ -263,7 +263,7 @@ img {
     justify-content: center;
     align-items: center;
     width: 100%;
-   padding: 0 15px;
+   padding: 20px 15px;
 }
 .contact-list {
  display: flex;
@@ -271,6 +271,6 @@ img {
     justify-content: center;
     align-items: center;
     width: 100%;
-   padding: 0 15px;
+   padding: 20px 15px;
 }
 }
