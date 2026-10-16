@@ -191,7 +191,7 @@ footer {
     padding: auto 0;
   }
   .projects {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     align-items: center;
   }
@@ -208,11 +208,10 @@ footer {
     align-items: center;
   }
   .project-item {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
    .project-item h3 {
-    order: -3;
     text-align: center;
   }
   .project-item img {
@@ -227,8 +226,12 @@ footer {
     order: -1;
     text-align: center;
   }
+.education p {
+  text-align: center;
+}
   .education p {
     width: 100%;
+    text-align: center;
   }
   .contact-list {
     display: flex;
