@@ -19,6 +19,7 @@ Link/Prompt: https://coolors.co/c6878f-b79d94-d6d6d6-67697c-253d5b
 --lavender-mist: #f0e8ef;
 --dim-grey: #67697cff;
 --deep-space-blue: #253d5bff;
+--white: #ffffff;
 */
 
 
@@ -29,6 +30,7 @@ Link/Prompt: https://coolors.co/c6878f-b79d94-d6d6d6-67697c-253d5b
   --primary-accent: #c6878fff;
   --secondary-accent: #D6D6D6;
   --dark-accent: #67697cff;
+  --light-font: #ffffff;  
 }
 
 
@@ -45,7 +47,7 @@ body {
   font-family: "Playfair Display";
   font-size: 16px;
   line-height: 1.6;
-  color: var(--primary-dark-color);s
+  color: var(--primary-dark-color);
   background-color: var(--background-color);
 }
 
@@ -99,7 +101,7 @@ h5 {
 .about { /* Used help from Gemini*/
   margin: 0;
   background-color: var(--primary-accent);
-  color: var(--background-color);
+  color: var(--light-font);
   padding: 20px 0;
   text-align: center;
   width: 100%;
@@ -152,13 +154,13 @@ img:hover {
 .project-info a {
   display: inline-block;
   background-color: var(--primary-light-color);
-  color: var(--background-color);
+  color: var(--light-font);
   box-shadow: 2px 2px 2px var(--dark-accent) ;
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 4px;
   font-size: 0.8em;
-  font-weight: bold;
+  font-weight: 900;
 
 }
 
@@ -206,7 +208,7 @@ hr {
 /* Contact Section  */
 .contact {
   background-color: var(--dark-accent);
-  color: var(--secondary-accent);
+  color: var(--light-font);
   padding: 40px 0;
   text-align: center;
   border-top: dotted var(--secondary-accent);
