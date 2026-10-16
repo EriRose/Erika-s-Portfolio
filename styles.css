@@ -195,7 +195,7 @@ footer {
   }
   .project-item {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
   }
   .project-item img {
     flex-shrink: 0;
