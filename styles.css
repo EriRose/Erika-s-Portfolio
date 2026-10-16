@@ -87,14 +87,13 @@ h3 {
 h4 {
   font-size: 1.2em;
   font-weight: 600 ;
-  margin: 0 0 5px;
+  margin: 15px 0 3px 0;
 }
 
 h5 {
   font-style: italic;
   font-size: 1em;
-  margin: 0 0 15px;
-
+  margin: 0 0 10px;
 }
 
 /* Top Banner Section */
@@ -196,7 +195,11 @@ hr {
   margin: 0 auto;
 }
 
-.edu a {
+.edu-info p {
+  margin: 0 auto 0;
+}
+
+.edu-info a {
   color: var(--primary-dark-color);
 }
 
