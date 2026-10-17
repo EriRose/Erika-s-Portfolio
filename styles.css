@@ -197,26 +197,29 @@ footer {
 }
 
 @media screen and (max-width:749px){
- header, footer {
-    text-align: center;
+header, footer {
+  text-align: center;
   }
-  h1 {
-    font-size: 2em;
-    line-height: 0.9;
-    margin-bottom: 20px;
-    text-align: center;
+h1 {
+  font-size: 2em;
+  line-height: 0.9;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+header h2 {
+  font-size: 1.2em;
   }
 h2 {
-    font-size: 1.2em;
-    line-height: 1;
-    text-align: center;
+  font-size: 1.2em;
+  line-height: 1;
+  text-align: center;
   }
 h3, h4, h5, p, a {
-  text-align: center;}
-  
+  text-align: center;
+}
 .contact-list a {
-    padding: 5px;
-    text-align: center;
+  padding: 5px;
+  text-align: center;
   }
 img {
   width: 100%;
@@ -248,7 +251,6 @@ img {
   width: 100%;
   padding: 20px 5px;
 }
-
 .project-item {
   display: flex;
   flex-direction: column;
@@ -258,7 +260,6 @@ img {
   padding: 20px 15px;
   text-align: center;
 }
-
 .education {
   width: 100%;
   padding-bottom: 5%;
@@ -274,7 +275,7 @@ img {
   width: 100%;
 }
 .contact-list {
-   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
