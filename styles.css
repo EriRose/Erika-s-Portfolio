@@ -211,7 +211,7 @@ h2 {
     line-height: 1;
     text-align: center;
   }
-h3, h4, h5, p {
+h3, h4, h5, p, a {
   text-align: center;}
   
 .contact-list a {
@@ -219,7 +219,7 @@ h3, h4, h5, p {
     text-align: center;
   }
 img {
-  width: 200px;
+  width: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
