@@ -272,6 +272,10 @@ img {
 .education a {
   text-align: center;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .contact-list {
    display: flex;
