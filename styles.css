@@ -224,7 +224,6 @@ img {
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 0 5%;
   }
 .body {
   display: flex;
@@ -235,7 +234,7 @@ img {
   padding: 20px 15px;
   }
 .projects .btn {
-   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -246,7 +245,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 20px 15px;
+  padding: 20px 5px;
 }
 
 .project-item {
